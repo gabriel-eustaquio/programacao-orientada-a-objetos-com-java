@@ -1,0 +1,126 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Exercicio 1
+		/* Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite um numero: ");
+		int x = sc.nextInt();
+		System.out.println("Digite outro numero: ");
+		int y = sc.nextInt();
+		
+		int soma = x + y;
+		
+		System.out.printf("SOMA = %d", soma);
+		
+		sc.close(); */
+		
+		
+		// Exercicio 2
+		/* Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Entre com o valor do raio do circulo: ");
+		double raioCirculo = sc.nextDouble();
+		double area = 3.14159 * (raioCirculo * raioCirculo);
+		System.out.printf("A=%.4f", area);
+		
+		sc.close(); */
+		
+		
+		// Exercicio 3
+		/* Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		int d = sc.nextInt();
+		int diferenca = a * b - c * d;
+		
+		System.out.println(diferenca);
+		
+		sc.close(); */
+		
+		
+		// Exercicio 4
+		/* Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Digite o numero do funcionario: ");
+		int number = sc.nextInt();
+		System.out.println("Digite as horas trabalhadas: ");
+		int hours = sc.nextInt();
+		System.out.println("Digite o valor que recebe por hora: ");
+		double value = sc.nextDouble();
+		
+		double salary = hours * value;
+		
+		System.out.printf("NUMBER = %d%nSALARY = U$ %.2f", number, salary);
+		
+		sc.close(); */
+		
+		
+		// Exercicio 5
+		/* Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o codigo da peça, o numero de peças e o valor unitario: ");
+		int codigoPeca1 = sc.nextInt();
+		int numeroDePecas1 = sc.nextInt();
+		double valorUnitarioPeca1 = sc.nextDouble();
+		int codigoPeca2 = sc.nextInt();
+		int numeroDePecas2 = sc.nextInt();
+		double valorUnitarioPeca2 = sc.nextDouble();
+		
+		double valorPeca1 = valorUnitarioPeca1 * numeroDePecas1;
+		double valorPeca2 = valorUnitarioPeca2 * numeroDePecas2;
+		
+		double valorPagar = valorPeca1 + valorPeca2;
+		
+		System.out.printf("VALOR A PAGAR: R$ %.2f", valorPagar);
+		
+		sc.close(); */
+		
+		
+		// Exercicio 6
+		
+		/* Scanner sc = new Scanner(System.in);
+		
+		double a, b, c;
+		
+		System.out.println("Inclua três valores: ");
+		a = sc.nextDouble();
+		b = sc.nextDouble();
+		c = sc.nextDouble();
+		
+		double areaTrianguloRetangulo = a * c / 2;
+		double areaDoCirculo = (c * c) * 3.14159;
+		double areaDoTrapezio = (a + b) * c / 2;
+		double areaDoQuadrado = b * b;
+		double areaDoRetangulo = a * b;
+		
+		System.out.printf("TRIANGULO: %.3f%n", areaTrianguloRetangulo);
+		System.out.printf("CIRCULO: %.3f%n", areaDoCirculo);
+		System.out.printf("TRAPEZIO: %.3f%n", areaDoTrapezio);
+		System.out.printf("QUADRADO: %.3f%n", areaDoQuadrado);
+		System.out.printf("RETANGULO: %.3f%n", areaDoRetangulo);
+		
+		sc.close(); */
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int idade = sc.nextInt();
+		sc.nextLine();
+		String nomeInteiro = sc.nextLine();
+		String somenteSobreNome = sc.next();
+		
+		System.out.printf("Seu nome completo: %s%n", nomeInteiro);
+		System.out.printf("Seu sobrenome: %s%n", somenteSobreNome);
+		System.out.printf("Sua idade: %d%n", idade);
+		
+		
+		sc.close();
+		
+		}
+	}
+

@@ -1,0 +1,6 @@
+		int x = 10, y = 3;
+		double resultado = (double) x / y;
+		// O compilador entende que x / y retorna um inteiro e caso eu queira mostrar
+		// os valores quebrados devo fazer casting
+		
+		System.out.println(resultado);
